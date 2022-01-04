@@ -5,8 +5,6 @@ import CRT from '../assets/images/CRT-FRAME.png';
 
 export default function Frame() {
     return (
-        <div className="frame" background>
-            
-        </div>
+        <div className="frame"></div>
     )
 }

@@ -1,0 +1,9 @@
+.homepage {
+    border: 40px solid #e8e8e8;
+    background-image: url('../../assets/images/spaceneedle_1.gif');
+    background-size: cover;
+
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+}

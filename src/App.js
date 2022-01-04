@@ -7,11 +7,10 @@ import HomePage from './pages/home/HomePage'
 import AboutPage from './pages/about/AboutPage'
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
-
-
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
