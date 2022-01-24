@@ -1,9 +1,48 @@
 .homepage {
-    border: 40px solid #e8e8e8;
-    background-image: url('../../assets/images/spaceneedle_1.gif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2 ), rgba(0, 0, 0, 0.2)),url('../../assets/images/spaceneedle_1.gif');
     background-size: cover;
+
+    box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
 
     height: 100vh;
     padding: 20px;
     margin: 0;
+}
+
+
+nav {
+    margin: 0;
+    padding: 10px; 
+    position: fixed;
+    right: 9%;
+    top: 15%;
+    width: 100px;
+    height: 60vh;
+
+    @media (min-width: 600px){
+        padding: 20px;
+    }
+
+}
+
+.desktop-icon-holder li {
+
+    height: 100px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.desktop-icon-holder li a {
+    position: relative;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    border: 1px solid white;
+    text-decoration: none;
 }
