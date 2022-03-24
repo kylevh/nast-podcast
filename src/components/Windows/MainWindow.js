@@ -8,7 +8,7 @@ import Draggable from 'react-draggable'
 
 export default function MainWindow() {
     return (
-        <Window menuTitle='NAST | A Seattle Podcast' wWidth='40vw' wHeight='57vh' top='33%' left='10%'>
+        <Window menuTitle='NAST | A Seattle Podcast' wWidth='20em' wHeight='50em' top='33%' left='10%'>
             <div>
                 <h2 className="welcome">Welcome to</h2>
                 <div className="title">

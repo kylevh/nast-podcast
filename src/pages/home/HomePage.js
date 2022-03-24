@@ -18,7 +18,6 @@ export default function HomePage() {
                     <li><a href=""><span>Youtube</span></a></li>
                     <li><a href=""><span>Spotify</span></a></li>
                     <li><a href=""><span>Cloud</span></a></li>
-
                 </ul>
             </nav>
 
