@@ -7,7 +7,7 @@ export default function Window(props) {
 
 
     return (
-        <Draggable bounds="parent">
+        <Draggable bounds="">
             <div className="window" style={{
                 width: props.wWidth,
                 height: props.wHeight,
@@ -15,7 +15,8 @@ export default function Window(props) {
                 minWidth:  props.mWidth,
                 maxHeight: '550px',
                 top: props.top,
-                left: props.left
+                left: props.left,
+                backgroundColor: props.color
                 }}>
             <div className="menu-bar"><h3>{props.menuTitle}</h3></div>
 

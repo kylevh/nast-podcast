@@ -4,10 +4,7 @@ import AnimatedPage from '../../components/AnimatedPage';
 
 export default function StartPage() {
     const navigate = useNavigate();
-    const clickedStart = () => {
-        //Will transition page to next page
-        console.log("Start button clicked");
-    }
+
     return (
         <AnimatedPage className="anim-behind">
             <div className="startpage" onClick={() => { navigate("/home"); }}>
