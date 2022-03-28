@@ -1,29 +1,98 @@
+.main-window {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .welcome{
     padding-top: 20px;
     padding-left: 20px;
     text-align: left;
     font-family: "Times New Roman", Times, serif;
     color: #E1A2DF;
-    font-size: 3vw;
+    font-size: 3em;
 }
 
 .title {
-    background-color: #E1A2DF;
     margin: 20px;
+    border-top: 4px solid #E1A2DF;
+    border-bottom: 4px solid #E1A2DF;
 }
 
 .title-bg {
     display: inline-block;
     width: 99%;
     margin: 0.5%;
-    background-color: grey;
 }
 
 .title h1 {
     color: #5B53FD;
+    line-height: 90%;
     padding: 10px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 4vw;
+    font-size: 5.5em;
     font-style: italic;
     font-weight: 700;
 }
+
+.title .blue {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.title .red {
+    color: #E1A2DF;
+    font-size: 5.5em;
+    font-weight: 700;
+    position: absolute;
+    top: 24.8%;
+    left: 0.5%;
+    right: 0;
+}
+
+.title .hidden {
+    color: #e1a2df00;
+}
+
+.main-buttons {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-buttons button {
+    background-color: #5B53FD;
+    width: 100%;
+    height: 13em;
+    margin: 15px;
+}
+
+.interviews {
+    background: url('../../assets/icons/3d/play.gif') no-repeat;
+    background-size: 20em;
+    background-position: center;
+    background-position-y: 1%;
+}
+
+.about {
+    background: url('../../assets/icons/3d/play2.gif') no-repeat;
+    background-size: 22em;
+    background-position: center;
+    background-position-y: 1%;
+
+}
+
+.contact {
+    background: url('../../assets/icons/3d/mail.gif') no-repeat;
+    background-size: 20em;
+    background-position: center;
+    background-position-y: 1%;
+    
+}
+
+
+
