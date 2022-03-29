@@ -14,11 +14,10 @@ export default function HomePage() {
         <div className="homepage">
             <nav className="desktop-icon-holder">
                 <ul>
-                    <li><a href=""><span>Instagram</span></a></li>
-                    <li><a href=""><span>Youtube</span></a></li>
-                    <li><a href=""><span>Spotify</span></a></li>
-                    <li><a href=""><span>Cloud</span></a></li>
-
+                    <li className="instagram"><a href="https://www.instagram.com/nastpodcast/"><span>Instagram</span></a></li>
+                    <li className="youtube"><a href="https://www.youtube.com/c/nastpodcast"><span>Youtube</span></a></li>
+                    <li className="spotify"><a href="https://open.spotify.com/show/73ojyr9kfdUrq3XTHboDYl"><span>Spotify</span></a></li>
+                    <li className="soundcloud"><a href="https://soundcloud.com/nastpodcast"><span>SoundCloud</span></a></li>
                 </ul>
             </nav>
 

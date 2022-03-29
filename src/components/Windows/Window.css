@@ -8,9 +8,8 @@
     min-width: 400px;
     max-height: 550px;
     background-color: #000320;
-    border: 1px solid #E1A1DF;
-
-    
+    border: 1px solid #E1A1DF; 
+    transform-origin: center;;
 }
 
 .window .menu-bar {

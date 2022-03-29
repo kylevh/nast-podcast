@@ -3,11 +3,12 @@ import Window from "./Window"
 import React from 'react'
 import Draggable from 'react-draggable'
 
+import Snake from './Snake';
 
 export default function PongWindow() {
     return (
-        <Window menuTitle="PONG" wWidth='300px' wHeight='250px' top='60%' left='57%' mWidth='230px'>
-            <h6>Pong</h6>
+        <Window className="snake-window" menuTitle="PONG" wWidth='303px' wHeight='332px' top='55%' left='57%' mWidth='230px' color="#010101">
+            <Snake/>
         </Window>
     )
 }

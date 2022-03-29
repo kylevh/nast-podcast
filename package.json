@@ -6,7 +6,12 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "framer-motion": "^6.2.4",
+=======
+    "axios": "^0.26.1",
+    "framer-motion": "^6.2.8",
+>>>>>>> aced3465392e0943c8d7d30dba13ce3e77f9c257
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-draggable": "^4.4.4",
