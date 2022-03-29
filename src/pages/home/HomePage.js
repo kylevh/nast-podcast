@@ -3,7 +3,7 @@ import './HomePage.css';
 import Frame from '../../components/Frame';
 import MainWindow from '../../components/Windows/MainWindow';
 import InterviewWindow from '../../components/Windows/InterviewWindow';
-import PongWindow from '../../components/Windows/PongWindow';
+import PongWindow from '../../components/Windows/SnakeWindow';
 
 import { useQuery } from '../../hooks/useQuery';
 
