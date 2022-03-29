@@ -1,42 +1,13 @@
 import "./MainWindow.css";
 
-<<<<<<< HEAD
-import Window from "./Window";
-=======
 import Window from "./Window"
 
 import React, { useState } from 'react'
 import Draggable from 'react-draggable'
 import AnimatedWindow from '../AnimatedWindow';
->>>>>>> aced3465392e0943c8d7d30dba13ce3e77f9c257
 
-import React from "react";
-import Draggable from "react-draggable";
 
 export default function MainWindow() {
-<<<<<<< HEAD
-  return (
-    <Window
-      menuTitle="NAST | A Seattle Podcast"
-      wWidth="45vw"
-      wHeight="57vh"
-      top="33%"
-      left="10%"
-    >
-      <div>
-        <h2 className="welcome">Welcome to</h2>
-        <div className="title">
-          <div className="title-bg">
-            <h1>
-              NAST <br />
-              PODCAST
-            </h1>
-          </div>
-        </div>
-      </div>
-    </Window>
-  );
-=======
     const [mainWindow, setMainWindow] = useState(0);
 
     return (
@@ -63,5 +34,4 @@ export default function MainWindow() {
             </AnimatedWindow> }
         </>
     )
->>>>>>> aced3465392e0943c8d7d30dba13ce3e77f9c257
 }

@@ -20,17 +20,8 @@
     margin: 0;
 }
 
-<<<<<<< HEAD
 .startpage .start-text {
     width: 80vw;
-=======
-.anim-behind {
-    background-color: red;
-    
-}
-
-.startpage .start-text { 
->>>>>>> aced3465392e0943c8d7d30dba13ce3e77f9c257
     position: absolute;
     top: 55%;
     left: 50%;
@@ -46,7 +37,6 @@
     font-family: "M5X7";
     font-size: 7em;
 }
-<<<<<<< HEAD
 
 .start-text h3 {
     margin: 20px;
@@ -54,6 +44,3 @@
     font-family: "Press Start 2P";
     color: rgba(255, 255, 255, 0.379);
 }
-=======
- 
->>>>>>> aced3465392e0943c8d7d30dba13ce3e77f9c257
