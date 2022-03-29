@@ -1,9 +1,27 @@
-import './Window.css'
+import "./Window.css";
 
-import React from 'react'
-import Draggable from 'react-draggable'
+import React from "react";
+import Draggable from "react-draggable";
 
 export default function Window(props) {
+<<<<<<< HEAD
+  return (
+    <Draggable bounds="parent">
+      <div
+        className="window"
+        style={{
+          width: props.wWidth,
+          height: props.wHeight,
+          maxWidth: "800px",
+          minWidth: props.mWidth,
+          maxHeight: "550px",
+          top: props.top,
+          left: props.left,
+        }}
+      >
+        <div className="menu-bar">
+          <h3>{props.menuTitle}</h3>
+=======
 
 
     return (
@@ -22,7 +40,11 @@ export default function Window(props) {
 
             {props.children && React.cloneElement(props.children, {})}
 
+>>>>>>> aced3465392e0943c8d7d30dba13ce3e77f9c257
         </div>
-        </Draggable >
-    )
+
+        {props.children && React.cloneElement(props.children, {})}
+      </div>
+    </Draggable>
+  );
 }
