@@ -40,7 +40,7 @@ export default function InterviewWindow() {
     return (
         <Window menuTitle="INTERVIEWS" wWidth='450px' wHeight='280px' top='20%' left='55%'>
             <div className="interview-window">
-                {interviewThumbnail && <img className="interview-thumbnail" src={interviewThumbnail}></img>}
+                <img className="interview-thumbnail" src='../../assets/images/interview-image/0.jpg'></img>
             </div>
 
         </Window>

@@ -9,6 +9,7 @@
 .startpage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2 ), rgba(0, 0, 0, 0.2)),url('../../assets/images/emp.gif');
     background-size: cover;
+    background-position: center 0;
 
     box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
     font-family: "Press Start 2P";
@@ -35,7 +36,15 @@
 
 .start-text h1 {
     font-family: "M5X7";
-    font-size: 7em;
+    font-size: 19em;
+
+  
+}
+
+@media only screen and (max-width : 1180px) and (orientation : landscape) {
+    .start-text h1 {
+        font-size: 5em;
+    }
 }
 
 .start-text h3 {

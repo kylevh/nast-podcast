@@ -23,7 +23,7 @@ export default function HomePage() {
 
             {isDesktopOrLaptop && <PongWindow />}
             {isDesktopOrLaptop && <InterviewWindow />}
-            <MainWindow />
+            {isDesktopOrLaptop && <MainWindow />}
 
         </div>
     )

@@ -71,6 +71,22 @@
     margin: 15px;
 }
 
+.about {
+    background: url('../../assets/icons/3d/play2.gif') no-repeat;
+    background-size: 22em;
+    background-position: center;
+    background-position-y: 1%;
+}
+
+.about h1 {
+    font-family: "Press Start 2P";
+    font-size: 1.5em;
+    color: #FFD2EA;
+    position: absolute;
+    bottom: 1.67em;
+    left: 2.7em;
+}
+
 .interviews {
     background: url('../../assets/icons/3d/play.gif') no-repeat;
     background-size: 20em;
@@ -78,20 +94,29 @@
     background-position-y: 1%;
 }
 
-.about {
-    background: url('../../assets/icons/3d/play2.gif') no-repeat;
-    background-size: 22em;
-    background-position: center;
-    background-position-y: 1%;
-
+.interviews h1 {
+    font-family: "Press Start 2P";
+    font-size: 1.2em;
+    color: #FFD2EA;
+    position: absolute;
+    bottom: 2.2em;
+    left: 15em;
 }
 
 .contact {
     background: url('../../assets/icons/3d/mail.gif') no-repeat;
     background-size: 20em;
     background-position: center;
-    background-position-y: 1%;
-    
+    background-position-y: 1%;   
+}
+
+.contact h1 {
+    font-family: "Press Start 2P";
+    font-size: 1.5em;
+    color: #FFD2EA;
+    position: absolute;
+    bottom: 1.67em;
+    left: 23.2em;
 }
 
 

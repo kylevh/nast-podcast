@@ -1,7 +1,7 @@
 .homepage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2 ), rgba(0, 0, 0, 0.2)),url('../../assets/images/spaceneedle_1.gif');
     background-size: cover;
-
+    background-position: center 0;
     box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
 
     height: 100vh;
