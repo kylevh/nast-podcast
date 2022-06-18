@@ -25,3 +25,32 @@ code {
     margin: 0;
     box-sizing: border-box;
 }
+
+form {
+  margin: 30px auto 10px;
+  text-align: center;
+}
+
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label {
+  display: block;
+  width: 30px;
+  height:30px;
+  border: 1px solid pink;
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height:30px;
+  color: pink;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+label:hover {
+  background: pink;
+  color: white;
+}
