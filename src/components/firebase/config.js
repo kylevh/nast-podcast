@@ -1,3 +1,4 @@
+import { configure } from '@testing-library/react';
 import firebase from 'firebase/compat/app';
 import "firebase/compat/firestore";
 
@@ -8,14 +9,8 @@ const firebaseConfig = {
     storageBucket: "nast-site-34da1.appspot.com",
     messagingSenderId: "316493165513",
     appId: "1:316493165513:web:b61fbd94641b7d1ce5ae18"
-};
+  };
 
+firebase.initializeApp(firebaseConfig);
 
-
-firebaseConfig.initializeApp(firebaseConfig);
-
-const projectStorage=firebase.storage();
-const projectFireStore=firebase.firestore();
-const timestamp=firebase.firestore.FieldValue.serverTimestamp;
-
-export {projectStorage,projectFireStore,timestamp};
+export default firebase;

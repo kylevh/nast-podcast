@@ -13,3 +13,65 @@
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+.interview-play-button {
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 50%;
+    height: 20%;
+    border-radius: 40px;
+    background-color: #ff94cd;
+    border: solid #fffcfe 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; 
+
+    font-family: "Press Start 2P";
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px #8d5272;
+}
+
+.material-icons {
+    padding-left: .4em;
+    font-size: 1.5em;
+}
+
+.interview-play-button:hover {
+    transition-duration: 0.1s;
+    background-color: #ffb5dc;
+}
+
+.interview-play-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+}
+
+.interview-play-button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+}
+
+.interview-play-button:active {
+    top: 55%;
+}

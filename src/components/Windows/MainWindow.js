@@ -14,7 +14,7 @@ export default function MainWindow() {
         <>
         {mainWindow == 0 && 
             <AnimatedWindow>
-                <Window menuTitle='NAST | A Seattle Podcast' wWidth='40em' wHeight='50em' top='27%' left='10%'>
+                <Window menuTitle='NAST NAST NAST NAST NAST NAST NAST NAST NAST' wWidth='40em' wHeight='50em' top='27%' left='10%'>
                     <div className="main-window">
                         <h2 className="welcome">Welcome to</h2>
                         <div className="title">
