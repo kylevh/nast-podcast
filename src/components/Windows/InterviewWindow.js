@@ -38,7 +38,7 @@ export default function InterviewWindow() {
         <Window menuTitle="CHECK IT" wWidth='450px' wHeight='280px' top='20%' left='55%'>
             <div className="interview-window">
                 <img className="interview-thumbnail" src={interviewThumbnail}></img>
-                <button className="interview-play-button">PLAY  <i class="material-icons"> play_circle</i></button>
+                <button className="interview-play-button"><h4>PLAY</h4>  <i class="material-icons"> play_circle</i></button>
             </div>
 
         </Window>

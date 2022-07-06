@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 const animations = {
-    initial: { scale: 0.1},
+    initial: { scale: 0.1 },
     animate: { scale: 1 },
     exit: {  }
 };
