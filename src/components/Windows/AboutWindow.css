@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "sysfont.otf";
+    src: url("../../assets/fonts/sysfont.otf") format("otf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+.about-window{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-family: "sysfont";
+    color: #E1A2DF;
+    font-size: 1.5em;
+    background-color: #170047;
+    position:absolute;
+    top:30px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.about-window p {
+    color: #dbfffda4;
+}
+
+.about-text {
+    font-size: .9em;
+}
+
+.ascii {
+    font-family: "courier";
+    white-space: pre;
+    font-size: .43em;
+    transform: scale(1, .8);
+}
+

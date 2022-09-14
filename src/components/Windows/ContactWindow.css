@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "sysfont.otf";
+    src: url("../../assets/fonts/sysfont.otf") format("otf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+.contact-window {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 650px;
+    font-family: "sysfont";
+    height: 100%;
+    margin: 0;
+    outline: none;
+}
+
+form input {
+    padding: .5em 1em;
+    margin: .3em .6em;
+    padding-left: .4em;
+    font-family: "sysfont";
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #463D7E, #B98EB8);
+    color: rgb(195, 207, 231);
+}
+
+input::placeholder {
+    color: rgb(139, 147, 165);
+}
+textarea::placeholder {
+    color: rgb(139, 147, 165);
+}
+
+form textarea {
+    font-size: 1.5em;
+    padding: .5em 1em;
+    margin: .3em .6em;
+    padding-left: .4em;
+    font-family: "sysfont";
+    background-image: linear-gradient(to right, #463D7E, #B98EB8);
+    border: none;
+    outline: none;
+    color: rgb(195, 207, 231);
+
+}
+
+form button {
+    font-size: 1.5em;
+    padding: .5em 1em;
+    margin: .45em .6em;
+    font-family: "sysfont";
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.name-top-padding {
+    margin-top: .7em;
+}

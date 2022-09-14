@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const animations = {
-    initial: { scale: 0.1 },
-    animate: { scale: 1 },
-    exit: {  }
+    initial: { scale: .1, x: -750, y:800},
+    animate: { scale: 1, x:100, y:150 },
+    exit: { scale: .1, x: -750, y:800 }
 };
 
 function AnimatedWindow({ children }) {

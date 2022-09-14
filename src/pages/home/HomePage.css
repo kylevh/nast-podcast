@@ -3,10 +3,65 @@
     background-size: cover;
     background-position: center 0;
     box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
+    
+    transition: background 300ms ease-in 200ms;
+    -webkit-transition: background 300ms ease-in 200ms;
+    -moz-transition: background .7s linear;
+    -o-transition: background .7s linear;
+    -ms-transition: background .7s linear;
+    
 
     height: 100vh;
     padding: 20px;
     margin: 0;
+}
+
+.background-wheel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2 ), rgba(0, 0, 0, 0.2)),url('../../assets/images/wheel.gif');
+    background-size: cover;
+    background-position: center 0;
+    box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
+
+}
+
+.background-pike {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2 ), rgba(0, 0, 0, 0.2)),url('../../assets/images/pikeplace.gif');
+    background-size: cover;
+    background-position: center 0;
+    box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
+}
+
+.background-ball {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2 ), rgba(0, 0, 0, 0.2)),url('../../assets/images/moshballs.gif');
+    background-size: cover;
+    background-position: center 0;
+    box-shadow: inset 0 0 0 3000px rgba(33, 29, 232, 0.2);
+}
+
+.wallpaper-holder {
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+    pointer-events: none;
+}
+
+.wallpaper-holder div {
+    pointer-events: none;
+}
+
+.wallpaper-holder img {
+    top: 400px;
+    left: 400px;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.fadeImage {
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s ease-in;
+    -moz-transition: opacity .5s ease-in;
+    -o-transition: opacity .5s ease-in;
 }
 
 
@@ -23,6 +78,44 @@ nav {
         padding: 20px;
     }
 
+}
+
+.home-button-holder {
+    /*puts div on top left corner */
+    position: fixed;
+    top: 9%;
+    left: 7%;
+}
+
+.home-button-holder li {
+    cursor:pointer;
+    height: 100px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.home-button-holder li a {
+    position: relative;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    /*border: 1px solid white;*/
+    text-decoration: none;
+}
+
+.home-button-holder .home-button {
+    background: url('../../assets/icons/3d/home.gif');
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 300%;
+    background-position: center;
+    background-position-y: top;
 }
 
 .desktop-icon-holder li {

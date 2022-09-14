@@ -37,8 +37,6 @@
 .start-text h1 {
     font-family: "M5X7";
     font-size: 19em;
-
-  
 }
 
 @media only screen and (max-width : 1180px) and (orientation : landscape) {

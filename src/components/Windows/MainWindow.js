@@ -5,14 +5,15 @@ import Window from "./Window"
 import React, { useState } from 'react'
 import Draggable from 'react-draggable'
 import AnimatedWindow from '../AnimatedWindow';
+import { AnimatePresence } from 'framer-motion'
 
+import { WindowContext } from '../../hooks/Context';
 
 export default function MainWindow() {
-    const [mainWindow, setMainWindow] = useState(0);
+    const { mainWindowShown, setMainWindowShown } = React.useContext(WindowContext);
 
     return (
         <>
-        {mainWindow == 0 && 
             <AnimatedWindow>
                 <Window menuTitle='NAST NAST NAST NAST NAST NAST NAST NAST NAST' wWidth='40em' wHeight='50em' top='27%' left='10%'>
                     <div className="main-window">
@@ -25,13 +26,13 @@ export default function MainWindow() {
                             </div>
                         </div>
                         <div className="main-buttons">
-                            <button className="about"><h1>About</h1></button>
-                            <button className="interviews"><h1>Interviews</h1></button>
-                            <button className="contact"><h1>Contact</h1></button>
+                            <button className="about" onClick={() => {setMainWindowShown(1)}} ><h1>About</h1></button>
+                            <button className="interviews" onClick={() => {setMainWindowShown(2)}} ><h1>Interviews</h1></button>
+                            <button className="contact" onClick={() => {setMainWindowShown(3)}}><h1>Contact</h1></button>
                         </div>
                     </div>
                 </Window>
-            </AnimatedWindow> }
+            </AnimatedWindow>
         </>
     )
 }
